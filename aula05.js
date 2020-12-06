@@ -11,6 +11,7 @@ function mostrarPais() {
 var result = mostrarPais()
 mostrarNome("vitor")
 // console.log(result)
+
 mostrarPais()
 
 
@@ -28,3 +29,11 @@ function name(n1 , n2) {
 
 var soma = name(2,2)
 console.log(soma)
+
+
+function calculator (primeiroNumero , segundoNumero) {
+    return primeiroNumero - segundoNumero
+    
+}
+
+calculator(10,5)
