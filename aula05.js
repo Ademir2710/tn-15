@@ -1,8 +1,13 @@
-function mostrarNome(params) {
-    console.log("ademir")
+function mostrarNome(nome) {
+    console.log(nome)
 }
 
-console.log("ademir")
+
+function mostrarPais() {
+    console.log("Brasil")
+    
+}
 
 
-
+mostrarNome("vitor")
+mostrarPais()
